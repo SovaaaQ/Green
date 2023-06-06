@@ -45,9 +45,9 @@ main {
     align-items: center;
     font-family: 'Fredoka-Bold';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 32px;
-    line-height: 30px;
+    line-height: 33px;
     color: #374A3D;
 }
 
@@ -99,4 +99,116 @@ main {
 .navbar__img{
     margin-left: 8px;
     margin-right: 2px;
+}
+
+.gar {
+    position: absolute;
+    display: none;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.gar_1 {
+    position: relative;
+    margin-left: 32px;
+}
+
+.circle {
+    position: absolute;
+    width: 360px;
+    aspect-ratio: 1;
+    background: rgba(114, 162, 101, 0.48);
+
+    top: 30%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 50%;
+    filter: blur(100px);
+
+    z-index: -1;
+}
+
+@media (min-width: 1300px) {
+    .gar {
+        display: flex;
+    }
+}
+
+/*header*/
+
+.header_wrapper {
+    padding: 130px 0;
+}
+
+.header_upper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_upper-title h1 {
+    font-family: 'Fredoka-Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 76px;
+    width: 560px;
+    color: #374A3D;
+}
+
+.bea {
+    color: #0CA941;
+}
+
+.header_upper-title p {
+    font-family: 'Fredoka-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    width: 540px;
+    color: #707070;
+}
+
+.girl {
+    margin-right: -145px;
+    margin-top: -40px;
+}
+
+.shop {
+    display: inline-block;
+    padding: 14px;
+    margin-top: 100px;
+    color: #374A3D;
+    background: none;
+    border: 1px solid #0CA941;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.line {
+    margin-left: 150px;
+    margin-top: -40px;
+}
+
+.kaktus {
+    margin-left: 250px;
+}.shop {
+     display: inline-block;
+     padding: 14px;
+     margin-top: 100px;
+     color: #374A3D;
+     background: none;
+     border: 1px solid #0CA941;
+     border-radius: 50px;
+     text-decoration: none;
+ }
+
+.line {
+    margin-left: 150px;
+    margin-top: -40px;
+}
+
+.kaktus {
+    margin-left: 250px;
 }
