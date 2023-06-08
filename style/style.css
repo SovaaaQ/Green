@@ -818,6 +818,7 @@ main {
     transform-origin: left center;
     transform: scaleX(0);
     transition: transform 0.2s ease;
+    z-index: 1;
 }
 
 
