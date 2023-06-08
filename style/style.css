@@ -808,9 +808,27 @@ main {
     color: #374A3D;
 }
 
+.progressbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 100%;
+    background-color: #14ad30;
+    transform-origin: left center;
+    transform: scaleX(0);
+    transition: transform 0.2s ease;
+}
+
 
 @media (max-width: 1170px){
     .container {
         padding: 0 20px 0 20px;
+    }
+}
+
+@media (max-width: 1050px){
+    .header__upper {
+        margin-left: 0;
     }
 }
